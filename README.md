@@ -4,8 +4,10 @@
 
 Built with React, NodeJs, Express
 
+### Features
+
 Using Event Bus to receive events and pulushes them to listeners
 
-To start:
+#### To start:
 
-### `npm start`
+`npm start`
