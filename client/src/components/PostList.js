@@ -17,7 +17,7 @@ function PostList() {
 		return () => {};
 	}, []);
 
-	const renderPosts = () => {
+	const renderPosts = () =>
 		Object.values(posts).map((post) => (
 			<div
 				className='card d-flex flex-column justify-content-between'
@@ -32,7 +32,6 @@ function PostList() {
 				</div>
 			</div>
 		));
-	};
 
 	return (
 		<div className='d-flex flex-row flex-wrap justify-content-between'>
